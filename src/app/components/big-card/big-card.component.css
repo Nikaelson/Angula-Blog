@@ -11,6 +11,7 @@
 
 .card__titilo {
   padding-bottom: 5px;
+  text-transform: uppercase;
 }
 
 .card__descricao {

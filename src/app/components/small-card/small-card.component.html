@@ -1,16 +1,12 @@
 <div class="conteiner-small-card">
   <div class="small-card__conteudo">
-    <img src="https://www.magenteiro.com/blog/wp-content/uploads/2022/06/placeholder-m2-fotos.png" alt="imagem de plsceholder" class="small-card__imagem">
+    <img src="{{smallCardImagem}}" alt="imagem de plsceholder" class="small-card__imagem">
     <div class="small-card__info">
       <small>13/10/2022</small>
       <h2 class="small-card__titulo">
-        <a href="#">TDD é uma técnica de programação em que testes unitários são escritos antes da implementação do código</a>
+        <a [routerLink]="['conteudo', Id]">{{smallCardTitulo}}</a>
       </h2>
     </div>
   </div>
   <hr>
 </div>
-<!-- 
-https://www.magenteiro.com/blog/wp-content/uploads/2022/06/placeholder-m2-fotos.png"
-https://png.pngtree.com/png-vector/20210604/ourmid/pngtree-gray-network-placeholder-png-image_3416659.jpg
--->
