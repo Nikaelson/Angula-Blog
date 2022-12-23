@@ -1,0 +1,22 @@
+.conteiner-title {
+  margin: auto;
+  padding: 2rem 0;
+  /* color: white; */
+  text-transform: uppercase;
+  /* width: 90vw; */
+}
+
+.conteiner-title hr {
+  opacity: 0.1;
+}
+
+.conteiner-title__title {
+  text-align: center;
+  font-size: 9rem;
+}
+
+@media screen and (max-width: 765px) {
+  .conteiner-title__title {
+    font-size: 4rem;
+  }
+}

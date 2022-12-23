@@ -1,0 +1,23 @@
+.conteudo {
+  display: flex;
+  gap: 25px;
+  padding-bottom: 2rem;
+}
+
+.conteudo__principal {
+  flex-basis: 50%;
+}
+
+.conteudo__outros {
+  flex: 1;
+}
+
+@media screen and (max-width: 765px) {
+  .conteudo {
+    display: block;
+  }
+
+  .conteudo__outros {
+    padding-top: 2rem;
+  }
+}

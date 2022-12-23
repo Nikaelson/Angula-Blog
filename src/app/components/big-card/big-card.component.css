@@ -1,0 +1,18 @@
+.card__imagem {
+  height: 300px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* small {
+  display: block;
+  padding: 5px;
+} */
+
+.card__titilo {
+  padding-bottom: 5px;
+}
+
+.card__descricao {
+  opacity: 0.4;
+}
